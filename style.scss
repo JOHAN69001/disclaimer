@@ -128,7 +128,8 @@ body {
 }
 
 .fade {
-  visibility: hidden;
+  transform: scale(0);
+  transition: .4s;
 }
 
 .fade:not(.show) {
